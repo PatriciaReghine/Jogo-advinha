@@ -2,6 +2,7 @@ listaNumeroSorteado = [];
 let numeroLimite = 50
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1
+var date = 2;
  
 function exibirTextoTela(tag, texto){
     let campo = document.querySelector(tag);
